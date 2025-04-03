@@ -11,14 +11,14 @@ let filtroLancamento = document.querySelector('#filtroLancamento');
 
 
 let imgFilmes = [
-   '<img src = "/imgsfilmes/romance/titanic.jpg.jpg" >',
-   '<img src = "/imgsfilmes/romance/orgepreco.jpg" >',
-  '<img src = "/imgsfilmes/acao/veloefurio.webp">',
-  '<img src = "/imgsfilmes/acao/johnwick.jpg.jpg">',
-  '<img src = "/imgsfilmes/terror/coraline.jpg.jpg">',
-  '<img src = "/imgsfilmes/terror/jogosMortais.jpg.jpg">',
-  '<img src = "/imgsfilmes/ficcaocientifica/bladeRunner.jpg.jpg">',
-  '<img src = "/imgsfilmes/comedia/tdmundoempani.jpg.jpg">'
+   '<img src = "imgsfilmes/romance/titanic.jpg.jpg" >',
+   '<img src = "imgsfilmes/romance/orgepreco.jpg" >',
+  '<img src = "imgsfilmes/acao/veloefurio.webp">',
+  '<img src = "imgsfilmes/acao/johnwick.jpg.jpg">',
+  '<img src = "imgsfilmes/terror/coraline.jpg.jpg">',
+  '<img src = "imgsfilmes/terror/jogosMortais.jpg.jpg">',
+  '<img src = "imgsfilmes/ficcaocientifica/bladeRunner.jpg.jpg">',
+  '<img src = "imgsfilmes/comedia/tdmundoempani.jpg.jpg">'
   
 ]
 
