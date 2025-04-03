@@ -177,7 +177,7 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px; /* Tamanho fixo para as imagens, você pode ajustar conforme necessário */
+    width: 150px; /* Tamanho fixo para as imagens, você pode ajustar conforme necessário */
   }
   
   .filme img {
