@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@media screen  and (min-width: 448px){
+
+    body {
+        /* background-color: #2c3e50; */
+        background-color: #fdfefe;
+    }
+
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding: 10px 20px;
+    }
+
+    .cabecalho img {
+        width: 33px;
+        height: auto;
+
+    }
+
+    .logo {
+        background-color: #eb5241;
+        border: 2px solid #c2483b  ;
+        width: 80px;
+        height: 20px;
+        border-radius: 50px;
+        text-align: center;
+        padding: 9px;
+        margin: 20px 1px;
+        color: #fdfefe;
+        font-weight: bold;  
+    }
+    
+    .icones {
+        display: flex;
+        gap: 20px;
+    }
+
+
+    img {
+        width: 40px;
+    }
+
+    .filminho{
+      border: 2px solid black;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        /* Espaçamento entre os filtros */
+
+
+    }
+
+    select {
+        width: 90vw;
+        padding: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        /* border: none; */
+        background-color: #5a1b14dc;
+        border-color: #742219;
+        color: #fdfefe;
+        box-shadow: 2px 2px #222222d2;
+        font-weight: bold;
+
+    }
+
+  
+
+}
+
+
+.romance {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    height: 150px;
+    /* Cor de fundo caso as imagens não carreguem */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out; /* Adicionando transição suave caso queira */
+}
+
+
+.acao{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out; /* Adicionando transição suave caso queira */
+}
+
+
+/* Prevenir que as imagens desapareçam ao clicar */
+.acao:active {
+    background-image: inherit; /* Manter a imagem intacta ao clicar */
+
+}
+
+.terror{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    height: 150px;
+    
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out; /* Adicionando transição suave caso queira */
+}
+
+/* Prevenir que as imagens desapareçam ao clicar */
+.terror:active {
+    background-image: inherit; /* Manter a imagem intacta ao clicar */
+
+}
+
+.sciFi{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out; /* Adicionando transição suave caso queira */
+}
+
+/* Prevenir que as imagens desapareçam ao clicar */
+.sciFi:active {
+    background-image: inherit; /* Manter a imagem intacta ao clicar */
+
+}
+
+.comedia{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out; /* Adicionando transição suave caso queira */
+}
+
+/* Prevenir que as imagens desapareçam ao clicar */
+.comedia:active {
+    background-image: inherit; /* Manter a imagem intacta ao clicar */
+
+}
+
+select{
+    width: 90vw;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Container para os filmes */
+#filmes {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens "quebrem" para a próxima linha quando necessário */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 10px; /* Espaço entre as imagens */
+    margin-top: 50px;
+  }
+  
+  /* Estilo para cada filme */
+  .filme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Tamanho fixo para as imagens, você pode ajustar conforme necessário */
+  }
+  
+  .filme img {
+    width: 100%; /* Faz com que a imagem ocupe todo o espaço disponível no contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 3px solid #2c3e50;
+  }
+
+
+  @media screen and (min-width: 840px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        /* Espaçamento entre os filtros */
+    }
+  }
+  
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FilmeIdeal</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="logo">Logo</div>
+
+        <div class="icones">
+            <a href="https://discord.gg/JYj7DaS8" target="_blank"><img src="icons/discord.png" alt="logo-discord"></a>
+           <a href="https://youtube.com/@filmeideal-resenhas?si=VkwmhXASEHEpklVo" target="_blank"><img src="icons/youtube.png" alt="logo-yt"></a>
+           <a href="https://forms.gle/VAcvu3pvXYrsYmnQA" target="_blank"><img src="icons/formulario.png" alt="icon-forms"></a>
+        </div>
+
+    </div>
+
+
+    <section class="container">
+        <!-- Filtro de Gênero -->
+        <select id="filtroGenero">
+            <option value="todos">Todos os Gêneros</option>
+            <option value="romance">Romance</option>
+            <option value="acao">Ação</option>
+            <option value="terror">Terror</option>
+            <option value="sciFi">Sci-Fi</option>
+            <option value="comedia">Comédia</option>
+        </select>
+
+        <!-- Filtro de Classificação Indicativa -->
+        <select id="filtroClassificacao">
+            <option value="todos">Todas as Classificações</option>
+            <option value="L">Livre</option>
+            <option value="10">10 anos</option>
+            <option value="12">12 anos</option>
+            <option value="14">14 anos</option>
+            <option value="16">16 anos</option>
+            <option value="18">18 anos</option>
+        </select>
+
+        <!-- Filtro de Popularidade -->
+        <select id="filtroPopularidade">
+            <option value="todos">Todas as Popularidades</option>
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+        </select>
+
+        <!-- Filtro de Data de Lançamento -->
+        <select id="filtroLancamento">
+            <option value="todos">Todas as datas</option>
+            <option value="antes2010">Antes de 2010</option>
+            <option value="2010-2020">2010 a 2020</option>
+            <option value="depois2020">Depois de 2020</option>
+        </select>
+    </section>
+
+    <!-- Área onde os filmes serão exibidos -->
+    <div id="filmes"></div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
