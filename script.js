@@ -16,8 +16,8 @@ let imgFilmes = [
   '<img src = "imgsfilmes/acao/veloefurio.webp">',
   '<img src = "imgsfilmes/acao/johnwick.jpg.jpg">',
   '<img src = "imgsfilmes/terror/coraline.jpg.jpg">',
-  '<img src = "imgsfilmes/terror/jogosMortais.jpg.jpg">',
-  '<img src = "imgsfilmes/ficcaocientifica/bladeRunner.jpg.jpg">',
+  '<img src = "imgsfilmes/terror/jogosmortais.jpg.jpg">',
+  '<img src = "imgsfilmes/ficcaocientifica/bladerunner.jpg.jpg">',
   '<img src = "imgsfilmes/comedia/tdmundoempani.jpg.jpg">'
   
 ]
